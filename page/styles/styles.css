@@ -115,7 +115,7 @@ a:active {
 
 @font-face {
     font-family: Peepo;
-    src: url("font/Peepo.ttf") format('truetype');
+    src: url("../font/Peepo.ttf");
 }
 
 @media (max-width: 1024px) {
