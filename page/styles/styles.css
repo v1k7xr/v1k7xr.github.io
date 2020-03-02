@@ -16,8 +16,8 @@ a:active {
 
 @font-face {
 	font-family: 'Peepo';
-	src: url('../fonts/Peepo.eot');
-	src: url('../fonts/Peepo.woff') format('woff'), url('../fonts/Peepo.ttf') format('truetype'), url('../fonts/Peepo.svg') format('svg');
+	src: url('../font/Peepo.eot');
+	src: url('../font/Peepo.woff') format('woff'), url('../font/Peepo.ttf') format('truetype'), url('../font/Peepo.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
