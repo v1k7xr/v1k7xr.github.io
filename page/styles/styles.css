@@ -113,6 +113,11 @@ a:active {
     margin-top: 5vh;
 }
 
+@font-face {
+    font-family: Peepo;
+    src: url("font/Peepo.ttf") format('truetype');
+}
+
 @media (max-width: 1024px) {
     .social-link {
         display: none;
