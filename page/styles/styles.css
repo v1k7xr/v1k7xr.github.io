@@ -1,0 +1,148 @@
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: #1F1551;
+}
+
+a {
+    color: #ffe65f;
+}
+
+a:active {
+    color: deeppink;
+}
+
+.all-stuff {
+    background-image: url("../images/main_images/yeah.gif");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0 0 0 0;
+    position: relative;
+}
+
+.main-info-field {
+    background-color: #451063;
+    opacity: 85%;
+    height: 65vh;
+    width: 42%;
+    margin: 0 auto;
+}
+
+.image-name-link-to-social {
+    height: 35vh;
+    background: rgb(31,21,81);
+    background: linear-gradient(180deg, rgba(31,21,81,1) 51%, rgba(79,15,104,1) 100%);
+    width: 42%;
+    margin: 0 auto;
+
+}
+
+.user-info {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.user-image {
+    padding-top: 5%;
+    width: 35%;
+    height: 45%;
+    margin-right: -0.25em;
+}
+
+.text-style {
+    font-size: 3.5vh;
+    font-family: Peepo;
+    color: white;
+    margin-right: -0.25em;
+}
+
+.social-link {
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.sun-image {
+    width: 45%;
+    height: 45%;
+    margin-right: -0.25em;
+}
+
+.text-style {
+    font-family: Peepo;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.svg-container {
+    width: 20vw;
+    height: 10vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-media-links {
+    width: calc(20.75% - 5px);
+    padding-top: 15%;
+    height: 7vh;
+    display: inline-block;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(113deg) brightness(110%) contrast(101%);
+}
+
+.text-main-style {
+    font-family: Peepo;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.svg-container-mobile {
+    display: none;
+}
+
+.text-wrapper {
+    width: 100%;
+    height: 7vh;
+    margin-top: 5vh;
+}
+
+@media (max-width: 1024px) {
+    .social-link {
+        display: none;
+        float: none;
+    }
+
+    .user-info {
+        float: none;
+        margin: 0 auto;
+        padding-top: 0;
+
+    }
+
+    .svg-container-mobile {
+        height: 7vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .social-media-links {
+        width: calc(30% - 5px);
+        padding: 3vh 0 0 0;
+        padding-bottom: 25%;
+        height: 3vw;
+    }
+
+    .user-image {
+        padding-top: 5vh;
+        height: 30%;
+    }
+
+  }
